@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "NetworkPlugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "9woods",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NetworkPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux"
+			]
+		}
+	]
+}

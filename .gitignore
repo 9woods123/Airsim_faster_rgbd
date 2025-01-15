@@ -1,0 +1,28 @@
+# Ignore the following folders:
+# Build files (all platforms)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore configuration files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# Ignore Unreal Engine cache and log files
+*.log
+
+# Ignore Visual Studio files
+.vs/
+.vscode/
+
+*.sln
+
+# Ignore the .idea folder from JetBrains IDEs (e.g., Rider, WebStorm)
+.idea/
+
+# Ignore macOS related files (if developing cross-platform)
+.DS_Store
