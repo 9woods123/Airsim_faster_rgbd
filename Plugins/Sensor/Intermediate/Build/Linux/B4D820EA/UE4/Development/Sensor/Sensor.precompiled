@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.Sensor.cpp.o",
+		"Module.Sensor.gen.cpp.o"
+	]
+}

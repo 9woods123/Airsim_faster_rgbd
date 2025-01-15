@@ -1,16 +1,14 @@
-# Ignore the following folders:
-# Build files (all platforms)
-Binaries/
-DerivedDataCache/
-Intermediate/
-Saved/
+# Ignore other specific folders and files
+/Binaries/
+/DerivedDataCache/
+/Saved/
+/Intermediate/
 
 # Ignore configuration files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-
 
 # Ignore Unreal Engine cache and log files
 *.log
