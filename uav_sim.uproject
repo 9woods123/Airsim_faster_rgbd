@@ -54,6 +54,14 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "NetworkPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "Sensor",
+			"Enabled": true
 		}
 	]
 }
