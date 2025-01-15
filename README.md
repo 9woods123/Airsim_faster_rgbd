@@ -1,6 +1,6 @@
 ### AirSim with Faster RGBD Camera
 
-This project inherits all interfaces from AirSim, except for the camera. I have focused on improving the camera rendering speed, addressing potential bottlenecks in the original AirSim implementation that may have been affecting performance. For faster camera rendering **(25HZ 1080*720 rgb &depth on RTX3060 while 5HZ in origin Airsim )**, you can enjoy an optimized experience in this project. The ROS interface for the camera is available in a separate repository.
+This project inherits all interfaces from AirSim, except for the camera. I have focused on improving the camera rendering speed, addressing potential bottlenecks in the original AirSim implementation that may have been affecting performance. For faster camera rendering **(25HZ 1080*720 rgb &depth on RTX3060 while 5HZ in origin Airsim )**, you can enjoy an optimized experience in this project. The ROS interface for the camera is available in a separate repository (https://github.com/EasyLaboratory/cmd2airsim.git).
 
 ---
 
