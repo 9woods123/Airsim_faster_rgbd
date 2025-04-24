@@ -12,7 +12,7 @@ This project inherits all interfaces from the original [AirSim](https://github.c
 
 ### 📷 ROS Integration:
 For ROS users, camera interfaces are provided via a separate ROS bridge:
-👉 [[https://github.com/EasyLaboratory/cmd2airsim.git](https://github.com/9woods123/cmd2airsim.git)]
+👉 [[https://github.com/9woods123/cmd2airsim.git](https://github.com/9woods123/cmd2airsim.git)]
 
 ### ⚙️ Unreal Engine Settings:
 To get the most out of this optimization, **make sure your project settings are correct**:
