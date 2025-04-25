@@ -1,0 +1,6 @@
+{
+	"OutputFiles": [
+		"Module.NetworkPlugin.cpp.o",
+		"Module.NetworkPlugin.gen.cpp.o"
+	]
+}
