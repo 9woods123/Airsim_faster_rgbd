@@ -88,11 +88,8 @@
 ### ✅ 步骤如下：
 
 1. **创建或打开你的自定义关卡**；
-2. **将 `BP_FlyingPawn` 拖入场景**（该蓝图包含了优化后的 RGBD 相机）；
-3. 可选：将 `PlayerStart` 删除或移动至与 `BP_FlyingPawn` 位置一致；
-4. 点击菜单栏 **“Edit > Project Settings”**，确认如下设置：
-
-   - `Maps & Modes > Default GameMode`：
+2. **将 `PlayerStart` 拖入场景**
+3. 点击关卡，确认如下设置：
      - GameMode：选择 `AirSimGameMode`；
 <img width="1119" alt="1745563785707" src="https://github.com/user-attachments/assets/ff8d6183-fbb9-4367-af41-31352230507d" />
 
