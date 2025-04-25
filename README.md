@@ -124,6 +124,13 @@ Project Settings > Maps & Modes > Editor Startup Map / Game Default Map
 
 <img src="https://github.com/user-attachments/assets/44e782f1-7242-45a6-bf31-92ff09ca63cc" width="600"/>
 
+如果需要修改相机的相关参数，请到这个目录下，并双击进入BP_RGB_Camera中，
+![image](https://github.com/user-attachments/assets/50a3cdc7-599f-47ca-ba68-d1aedb892d6b)
+
+选择rgbCaputure组件，可修改的相机发送频率和UDP端口会在右边细节中出现：
+<img width="1280" alt="1745564498729" src="https://github.com/user-attachments/assets/9217ea9a-b94a-4975-86f5-b07ad78b1bbe" />
+
+
 ---
 
 
