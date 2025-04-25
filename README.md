@@ -44,6 +44,7 @@
 - 默认支持 **AirSim RPC 接口** 和 **优化后的 RGBD 相机接口**；
 - 可与 ROS 桥（[cmd2airsim](https://github.com/9woods123/cmd2airsim.git)）配合使用；
 - 你依然可以使用键盘 “C” 打开/关闭 RGBD 相机 UI 面板。
+![image](https://github.com/user-attachments/assets/8560bb4b-0a2f-4aac-9701-754b31dbb529)
 
 ---
 
@@ -93,9 +94,7 @@
 
    - `Maps & Modes > Default GameMode`：
      - GameMode：选择 `AirSimGameMode`；
-     - Default Pawn Class：确保为 `BP_FlyingPawn`；
-   
-5. 保存地图，点击“Play”运行，即可在你的地图中使用 AirSim 及 RGBD 相机功能。
+<img width="1119" alt="1745563785707" src="https://github.com/user-attachments/assets/ff8d6183-fbb9-4367-af41-31352230507d" />
 
 ### 🔁 绑定你的地图为默认加载：
 
@@ -104,6 +103,7 @@
 ```text
 Project Settings > Maps & Modes > Editor Startup Map / Game Default Map
 ```
+
 
 选择你的关卡名（例如 `MyCustomMap`）。
 
