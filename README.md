@@ -102,7 +102,30 @@ Project Settings > Maps & Modes > Editor Startup Map / Game Default Map
 ```
 
 
-选择你的关卡名（例如 `MyCustomMap`）。
+## 🛠️ 修改 Sensor 或 AirSim 插件代码的方法
+
+若你需要对 AirSim 的传感器系统或插件逻辑进行修改，可以按照以下步骤操作：
+
+### ✅ 显示插件内容
+
+1. 在 **Content Browser（内容浏览器）** 中点击左上角的 "视图选项"；
+2. 勾选 **“显示插件内容（Show Plugin Content）”**；
+3. 你将在下方看到各类插件（包括 AirSim）所提供的内容。
+
+<img src="https://github.com/user-attachments/assets/60275d54-1c24-454c-bc4e-676c2f2cf6d7" width="600"/>
+
+---
+
+### 🔍 查找 Sensor 相关文件
+
+1. 点击内容浏览器左上的小文件夹图标（显示“路径”或“启用路径面板”）；
+2. 在搜索栏中输入 `sensor`；
+3. 你可以直接访问和修改 `Plugins/AirSim/Content` 下的传感器蓝图或资源。
+
+<img src="https://github.com/user-attachments/assets/44e782f1-7242-45a6-bf31-92ff09ca63cc" width="600"/>
+
+---
+
 
 ## 📷 ROS 集成
 
