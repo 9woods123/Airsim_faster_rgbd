@@ -46,6 +46,12 @@ chmod +x uav_sim.sh
 
 ---
 
+## 🔧 安装 Visual Studio 2022
+
+本工程是基于VS 2022编译的，所以一定使用VS 2022编译。安装2022时，可以多选择几个SDK，避免缺少依赖。
+![屏幕截图 2025-04-29 085820](https://github.com/user-attachments/assets/2f42c946-192a-4979-9b3a-08ef3c311f51)
+
+
 ## 🔧 自行编译项目（Windows）
 
 1. 克隆仓库：
@@ -56,7 +62,8 @@ chmod +x uav_sim.sh
 
 2. 使用 Unreal Editor 打开 `uav_sim.uproj`；
 3. 右键 → 生成 Visual Studio 项目(在这之前，一定安装visual studio 2022，本工程是基于2022版本编译的，如果用其他版本，会出现sdk不匹配问题)；
-4. 双击打开uav_sim.sln文件，选择编译配置为 development editor 和 win64
+   
+5. 双击打开uav_sim.sln文件，选择编译配置为 development editor 和 win64
  ![image](https://github.com/user-attachments/assets/6b9d2e54-b77e-4edc-8785-a437896804cd)
 ![image](https://github.com/user-attachments/assets/12d4b96a-2b5f-4a76-9c2b-c3d68398ae0e)
 6. ctrl shift B 编译通过后，再双击打开 `uav_sim.uproj` 即可使用。
