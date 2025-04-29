@@ -55,7 +55,7 @@ chmod +x uav_sim.sh
    ```
 
 2. 使用 Unreal Editor 打开 `uav_sim.uproj`；
-3. 右键 → 生成 Visual Studio 项目；
+3. 右键 → 生成 Visual Studio 项目(在这之前，一定安装visual studio 2022，本工程是基于2022版本编译的，如果用其他版本，会出现sdk不匹配问题)；
 4. 双击打开uav_sim.sln文件，选择编译配置为 development editor 和 win64
  ![image](https://github.com/user-attachments/assets/6b9d2e54-b77e-4edc-8785-a437896804cd)
 ![image](https://github.com/user-attachments/assets/12d4b96a-2b5f-4a76-9c2b-c3d68398ae0e)
