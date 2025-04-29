@@ -24,3 +24,13 @@
 
 # Ignore macOS related files (if developing cross-platform)
 .DS_Store
+
+
+# Ignore AirSim plugin directories in Plugins folder
+/Plugins/AirSim/Binaries/
+/Plugins/AirSim/Intermediate/
+
+/Plugins/NetworkPlugin/Binaries/
+/Plugins/Sensor/Binaries/
+
+

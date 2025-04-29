@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AIRSIM_ObjectFilter_generated_h
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_ObjectFilter_h_17_GENERATED_BODY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_ObjectFilter_h_17_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FObjectFilter_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> AIRSIM_API UScriptStruct* StaticStruct<struct FObjectFilter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Airsim_faster_rgbd_lib_Plugins_AirSim_Source_ObjectFilter_h
+#define CURRENT_FILE_ID Airsim_faster_rgbd_Plugins_AirSim_Source_ObjectFilter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

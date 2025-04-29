@@ -14,18 +14,18 @@ class UTextureRenderTarget2D;
 #endif
 #define AIRSIM_SimHUDWidget_generated_h
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_SPARSE_DATA
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_SPARSE_DATA
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execonToggleRecordingButtonClick);
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execonToggleRecordingButtonClick);
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_EVENT_PARMS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_EVENT_PARMS \
 	struct SimHUDWidget_eventgetHelpContainerVisibility_Parms \
 	{ \
 		bool ReturnValue; \
@@ -136,8 +136,8 @@ class UTextureRenderTarget2D;
 	};
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_CALLBACK_WRAPPERS
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_CALLBACK_WRAPPERS
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSimHUDWidget(); \
 	friend struct Z_Construct_UClass_USimHUDWidget_Statics; \
@@ -146,7 +146,7 @@ public: \
 	DECLARE_SERIALIZER(USimHUDWidget)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesUSimHUDWidget(); \
 	friend struct Z_Construct_UClass_USimHUDWidget_Statics; \
@@ -155,7 +155,7 @@ public: \
 	DECLARE_SERIALIZER(USimHUDWidget)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_STANDARD_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USimHUDWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimHUDWidget) \
@@ -168,7 +168,7 @@ private: \
 public:
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_ENHANCED_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USimHUDWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -181,33 +181,33 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USimHUDWidget)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_PRIVATE_PROPERTY_OFFSET
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_9_PROLOG \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_EVENT_PARMS
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_PRIVATE_PROPERTY_OFFSET
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_9_PROLOG \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_EVENT_PARMS
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_GENERATED_BODY_LEGACY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_CALLBACK_WRAPPERS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_STANDARD_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_CALLBACK_WRAPPERS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_GENERATED_BODY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_CALLBACK_WRAPPERS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_ENHANCED_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_CALLBACK_WRAPPERS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_INCLASS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -215,7 +215,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AIRSIM_API UClass* StaticClass<class USimHUDWidget>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Airsim_faster_rgbd_lib_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h
+#define CURRENT_FILE_ID Airsim_faster_rgbd_Plugins_AirSim_Source_SimHUD_SimHUDWidget_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

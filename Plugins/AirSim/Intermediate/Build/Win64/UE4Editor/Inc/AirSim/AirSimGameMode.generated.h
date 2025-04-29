@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AIRSIM_AirSimGameMode_generated_h
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_SPARSE_DATA
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_SPARSE_DATA
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAirSimGameMode(); \
 	friend struct Z_Construct_UClass_AAirSimGameMode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AAirSimGameMode)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAAirSimGameMode(); \
 	friend struct Z_Construct_UClass_AAirSimGameMode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AAirSimGameMode)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_STANDARD_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAirSimGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAirSimGameMode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_ENHANCED_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAirSimGameMode(AAirSimGameMode&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAirSimGameMode)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_PRIVATE_PROPERTY_OFFSET
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_13_PROLOG
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_GENERATED_BODY_LEGACY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_PRIVATE_PROPERTY_OFFSET
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_13_PROLOG
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_STANDARD_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_GENERATED_BODY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h_17_ENHANCED_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_INCLASS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h_17_ENHANCED_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AIRSIM_API UClass* StaticClass<class AAirSimGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Airsim_faster_rgbd_lib_Plugins_AirSim_Source_AirSimGameMode_h
+#define CURRENT_FILE_ID Airsim_faster_rgbd_Plugins_AirSim_Source_AirSimGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

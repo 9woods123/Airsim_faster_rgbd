@@ -19,8 +19,8 @@ enum class EWeatherParamScalar : uint8;
 #endif
 #define AIRSIM_WeatherLib_generated_h
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_SPARSE_DATA
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_SPARSE_DATA
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execsetWeatherFog); \
 	DECLARE_FUNCTION(execactorGetWorld); \
@@ -38,7 +38,7 @@ enum class EWeatherParamScalar : uint8;
 	DECLARE_FUNCTION(execinitWeather);
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execsetWeatherFog); \
 	DECLARE_FUNCTION(execactorGetWorld); \
@@ -56,7 +56,7 @@ enum class EWeatherParamScalar : uint8;
 	DECLARE_FUNCTION(execinitWeather);
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWeatherLib(); \
 	friend struct Z_Construct_UClass_UWeatherLib_Statics; \
@@ -65,7 +65,7 @@ public: \
 	DECLARE_SERIALIZER(UWeatherLib)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS \
 private: \
 	static void StaticRegisterNativesUWeatherLib(); \
 	friend struct Z_Construct_UClass_UWeatherLib_Statics; \
@@ -74,7 +74,7 @@ public: \
 	DECLARE_SERIALIZER(UWeatherLib)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_STANDARD_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWeatherLib(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWeatherLib) \
@@ -87,7 +87,7 @@ private: \
 public:
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_ENHANCED_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWeatherLib(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -100,28 +100,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWeatherLib)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_PRIVATE_PROPERTY_OFFSET
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_38_PROLOG
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_GENERATED_BODY_LEGACY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_PRIVATE_PROPERTY_OFFSET
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_38_PROLOG
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_STANDARD_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_GENERATED_BODY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h_41_ENHANCED_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_RPC_WRAPPERS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_INCLASS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h_41_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -129,7 +129,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AIRSIM_API UClass* StaticClass<class UWeatherLib>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Airsim_faster_rgbd_lib_Plugins_AirSim_Source_Weather_WeatherLib_h
+#define CURRENT_FILE_ID Airsim_faster_rgbd_Plugins_AirSim_Source_Weather_WeatherLib_h
 
 
 #define FOREACH_ENUM_EWEATHERPARAMVECTOR(op) \

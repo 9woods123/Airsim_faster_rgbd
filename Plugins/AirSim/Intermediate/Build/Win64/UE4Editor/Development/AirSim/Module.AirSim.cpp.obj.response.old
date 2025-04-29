@@ -231,13 +231,13 @@
 /I Runtime\MovieSceneTracks\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Inc\AirSim
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\include
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\deps\eigen3
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\deps\MavLinkCom\include
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\deps\rpclib\include
-/I D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Source
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Inc\AirSim
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\include
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\deps\eigen3
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\deps\MavLinkCom\include
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Source\AirLib\deps\rpclib\include
+/I D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Source
 /I ..\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles
 /I ..\Plugins\Runtime\PhysXVehicles\Source
 /I ..\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public
@@ -269,18 +269,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"D:\ue\my_ue_projects\Airsim_faster_rgbd\Intermediate\Build\Win64\uav_simEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\ue\my_ue_projects\Airsim_faster_rgbd\Intermediate\Build\Win64\uav_simEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\ue\my_ue_projects\Airsim_faster_rgbd\Intermediate\Build\Win64\uav_simEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp"
-/FI"D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Definitions.AirSim.h"
-/Fo"D:\ue\my_ue_projects\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"D:\ue_projs\Airsim_faster_rgbd\Intermediate\Build\Win64\uav_simEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\ue_projs\Airsim_faster_rgbd\Intermediate\Build\Win64\uav_simEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\ue_projs\Airsim_faster_rgbd\Intermediate\Build\Win64\uav_simEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp"
+/FI"D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Definitions.AirSim.h"
+/Fo"D:\ue_projs\Airsim_faster_rgbd\Plugins\AirSim\Intermediate\Build\Win64\UE4Editor\Development\AirSim\Module.AirSim.cpp.obj"
 /TP
 /GR-
 /W4

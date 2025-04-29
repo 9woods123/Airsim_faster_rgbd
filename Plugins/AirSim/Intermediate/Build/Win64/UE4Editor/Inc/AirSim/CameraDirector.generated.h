@@ -14,20 +14,20 @@ enum class ECameraDirectorMode : uint8;
 #endif
 #define AIRSIM_CameraDirector_generated_h
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_SPARSE_DATA
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_SPARSE_DATA
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execsetMode); \
 	DECLARE_FUNCTION(execgetMode);
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execsetMode); \
 	DECLARE_FUNCTION(execgetMode);
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS_NO_PURE_DECLS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACameraDirector(); \
 	friend struct Z_Construct_UClass_ACameraDirector_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(ACameraDirector)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS \
 private: \
 	static void StaticRegisterNativesACameraDirector(); \
 	friend struct Z_Construct_UClass_ACameraDirector_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(ACameraDirector)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_STANDARD_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACameraDirector(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACameraDirector) \
@@ -58,7 +58,7 @@ private: \
 public:
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_ENHANCED_CONSTRUCTORS \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACameraDirector(ACameraDirector&&); \
@@ -69,31 +69,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACameraDirector)
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_PRIVATE_PROPERTY_OFFSET \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__manual_pose_controller_() { return STRUCT_OFFSET(ACameraDirector, manual_pose_controller_); }
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_25_PROLOG
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_GENERATED_BODY_LEGACY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_25_PROLOG
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_STANDARD_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_GENERATED_BODY \
+#define Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_PRIVATE_PROPERTY_OFFSET \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_SPARSE_DATA \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS_NO_PURE_DECLS \
-	Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h_28_ENHANCED_CONSTRUCTORS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_PRIVATE_PROPERTY_OFFSET \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_SPARSE_DATA \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_INCLASS_NO_PURE_DECLS \
+	Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -101,7 +101,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AIRSIM_API UClass* StaticClass<class ACameraDirector>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Airsim_faster_rgbd_lib_Plugins_AirSim_Source_CameraDirector_h
+#define CURRENT_FILE_ID Airsim_faster_rgbd_Plugins_AirSim_Source_CameraDirector_h
 
 
 #define FOREACH_ENUM_ECAMERADIRECTORMODE(op) \
