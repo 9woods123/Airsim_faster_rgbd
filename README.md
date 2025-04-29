@@ -31,14 +31,6 @@
 
 ---
 
-## 🔧 自行编译项目
-
-如果您希望在 Windows 或 Linux 上自行编译项目，您可以参考以下指南：
-
-- [Windows 编译指南](https://github.com/9woods123/Airsim_faster_rgbd/wiki/Windows-Build)
-- [Linux 编译指南](https://github.com/9woods123/Airsim_faster_rgbd/wiki/Linux-Build)
-
----
 
 ## 🎮 使用自定义地图
 
